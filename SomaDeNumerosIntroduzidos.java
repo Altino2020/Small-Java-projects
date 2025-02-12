@@ -1,5 +1,5 @@
-import java.util.Scanner;
 import java.util.Locale;
+import java.util.Scanner;
 
 public class SomaDeNumerosIntroduzidos{
     public static void main(String[] args){
@@ -8,7 +8,7 @@ public class SomaDeNumerosIntroduzidos{
         System.out.println("Coloca inteiro");
         int valor = scan.nextInt();
         int soma=0;
-        while(valor>5){
+        while(valor>0){
             soma+=valor;
             valor=scan.nextInt();
         }
